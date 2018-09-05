@@ -1,12 +1,162 @@
 <html>
-    <head>
 
-    </head>
-    <body>
-        <ul>
-            <li><a href="https://hiattzhao.github.io" target="_blank" rel="noopener noreferrer">Web Development</a></li>
-            <li><a href="https://bike.hiattzhao.com" target="_blank" rel="noopener noreferrer">TransAmerica Cycling</a></li>
-            <li><a href="http://www.zhaoism.org/" target="_blank" rel="noopener noreferrer">Autobiography</a></li>
-        </ul>
-    </body>
+<head>
+    <title>Hiatt Zhao</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section.photo {
+            background-image: url('hiattzhao_background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        section.info {
+            margin: 5vw;
+            padding: 3vw;
+            background-color: rgb(69, 108, 156, 0.25);
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.website-links li {
+            text-align: center;
+            margin-bottom: 2vh;
+        }
+
+        ul.website-links li a {
+            display: block;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            user-select: none;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            background-color: rgba(48, 91, 144, 1);
+            border-color: rgba(48, 91, 144, 1);
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        ul.website-links li a:hover {
+            background-color: rgba(48, 91, 144, 0.5);
+            border-color: rgba(48, 91, 144, 0.5);
+        } 
+
+        ul.social-links {
+            display: block;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        ul.social-links li {
+            font-size: 3em;
+            display: inline;
+        }
+
+        ul.social-links li a {
+            color: #666;
+        }
+
+        ul.social-links li.facebook a:hover {
+            color: rgb(59, 89, 152);
+        }
+
+        ul.social-links li.twitter a:hover {
+            color: rgb(0, 172, 237);
+        }
+
+        ul.social-links li.instagram a:hover {
+            color: rgb(81, 127, 237);
+        }
+
+        ul.social-links li.linkedin a:hover {
+            color: rgb(59, 89, 152);
+        }
+
+        ul.social-links li.github a:hover {
+            color: rgb(251, 126, 42);
+        }
+
+        ul.social-links li.vimeo a:hover {
+            color: rgb(68, 85, 102);
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            section.photo {
+                background-position: left;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            section.photo {
+                background-position: left;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            section.info {
+                position: absolute;
+                top: 5vw;
+                right: 5vw;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {}
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {}
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="photo">
+        </section>
+        <section class="info">
+            <header>
+                <h1>Hiatt Zhao</h1>
+            </header>
+            <nav>
+                <ul class="website-links">
+                    <li class="button"><a href="https://hiattzhao.github.io" target="_blank">Web Development & Photography</a></li>
+                    <li class="button"><a href="https://bike.hiattzhao.com" target="_blank">TransAmerica Cycling</a></li>
+                    <li class="button"><a href="http://www.zhaoism.org/" target="_blank">Autobiography</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <ul class="social-links">
+                    <li class="facebook"><a href="https://www.facebook.com/hiattzhao" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/hiattzhao" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/hiattzhao/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/hiattzhao" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="github"><a href="https://github.com/hiattzhao" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    <li class="vimeo"><a href="https://vimeo.com/hiattzhao/" target="_blank"><i class="fab fa-vimeo-square"></i></a></li>
+                </ul>
+            </footer>
+        </section>
+    </main>
+</body>
+
 </html>
