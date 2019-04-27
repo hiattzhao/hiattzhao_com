@@ -1,0 +1,51 @@
+/* Gallery width */
+#galleria {
+  height:800px;
+}
+
+#portrait {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.site-nav {
+  z-index: 999;
+}
+
+#bio {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#bio h2, #bio p{
+  padding-top: 1em;
+}
+
+hr {
+  width: 75%;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social_icons {
+  padding-top: 0.5em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.social_icons a {
+  padding-right: 0.5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.title {
+  display: none;
+}
