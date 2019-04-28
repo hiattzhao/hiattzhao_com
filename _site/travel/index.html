@@ -10,7 +10,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'UA-127441959-1');
+    gtag('config', 'UA-12962987-1');
   </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,86 +50,7 @@
         <article class="post">
 
   <div class="post-content">
-    <div id="galleria">
-    <a href="/assets/photos/travel/t01.jpg">
-        <img src="/assets/photos/travel/thumb-t/t01.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t02.jpg">
-        <img src="/assets/photos/travel/thumb-t/t02.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t03.jpg">
-        <img src="/assets/photos/travel/thumb-t/t03.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t04.jpg">
-        <img src="/assets/photos/travel/thumb-t/t04.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t05.jpg">
-        <img src="/assets/photos/travel/thumb-t/t05.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t06.jpg">
-        <img src="/assets/photos/travel/thumb-t/t06.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t07.jpg">
-        <img src="/assets/photos/travel/thumb-t/t07.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t08.jpg">
-        <img src="/assets/photos/travel/thumb-t/t08.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t09.jpg">
-        <img src="/assets/photos/travel/thumb-t/t09.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t10.jpg">
-        <img src="/assets/photos/travel/thumb-t/t10.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t11.jpg">
-        <img src="/assets/photos/travel/thumb-t/t11.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t12.jpg">
-        <img src="/assets/photos/travel/thumb-t/t12.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t13.jpg">
-        <img src="/assets/photos/travel/thumb-t/t13.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t14.jpg">
-        <img src="/assets/photos/travel/thumb-t/t14.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t15.jpg">
-        <img src="/assets/photos/travel/thumb-t/t15.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t16.jpg">
-        <img src="/assets/photos/travel/thumb-t/t16.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t17.jpg">
-        <img src="/assets/photos/travel/thumb-t/t17.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t18.jpg">
-        <img src="/assets/photos/travel/thumb-t/t18.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t19.jpg">
-        <img src="/assets/photos/travel/thumb-t/t19.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t20.jpg">
-        <img src="/assets/photos/travel/thumb-t/t20.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t21.jpg">
-        <img src="/assets/photos/travel/thumb-t/t21.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t22.jpg">
-        <img src="/assets/photos/travel/thumb-t/t22.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t23.jpg">
-        <img src="/assets/photos/travel/thumb-t/t23.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t24.jpg">
-        <img src="/assets/photos/travel/thumb-t/t24.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t25.jpg">
-        <img src="/assets/photos/travel/thumb-t/t25.jpg" />
-    </a>
-    <a href="/assets/photos/travel/t26.jpg">
-        <img src="/assets/photos/travel/thumb-t/t26.jpg" />
-    </a>
-</div>
+    <div id="galleria"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -138,15 +59,38 @@
 <script src="/assets/js/galleria-1.4.2.min.js"></script>
 
 <script>
-    // Load the custom theme
-    Galleria.loadTheme('/assets/js/galleria/galleria.portfolio.js');
-    // Configure Galleria
-    Galleria.configure({
-      showInfo: false
+  var imageLocation = '/assets/photos/travel/';
+  var thumbLocation = imageLocation + 'thumb-t/';
+  var bigLocation = imageLocation;
+  var imagePrefix = 't';
+  var totalImages = 26;
+  
+  var data = [];
+
+  for (var i = 1; i <= totalImages; i++) {
+    if (i < 10) {
+      i = '0' + i;
+    }
+    data.push({
+      image : imageLocation + imagePrefix + i + '.jpg',
+      thumb : thumbLocation + imagePrefix + i + '.jpg',
+      big : imageLocation + imagePrefix + i + '.jpg',
+      title: 'travel #' + i,
+      description: 'none'
     });
-    // Initialize Galleria
-    Galleria.run('#galleria');
-  </script>
+  }
+
+  // Load the custom theme
+  Galleria.loadTheme('/assets/js/galleria/galleria.portfolio.js');
+  // Configure Galleria
+  Galleria.configure({
+    showInfo: true
+  });
+  // Initialize Galleria
+  Galleria.run('#galleria', {
+    dataSource: data
+  });
+</script>
 
 
   </div>

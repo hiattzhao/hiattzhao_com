@@ -46,6 +46,12 @@ h2 {
   text-align: center;
 }
 
+/* Don't show the "I am a ..." titles */
 .title {
+  display: none;
+}
+
+/* Don't show the "more info" links */
+.galleria-info-link {
   display: none;
 }
