@@ -37,7 +37,8 @@ permalink: /architecture-reflections/
   Galleria.loadTheme('/assets/js/galleria/galleria.portfolio.js');
   // Configure Galleria
   Galleria.configure({
-    showInfo: true
+    showInfo: true,
+    fullscreenDoubleTap: true
   });
   // Initialize Galleria
   Galleria.run('#galleria', {
