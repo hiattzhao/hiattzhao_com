@@ -14,9 +14,13 @@
   z-index:  2147483647;
 }
 
-#bio {
-  margin: 0 auto;
-  width: 60%;
+.home, .post, #bio {
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px
 }
 
 #bio h2, #bio p{
