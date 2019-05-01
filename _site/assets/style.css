@@ -30,6 +30,8 @@
 hr {
   width: 75%;
   text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
 .contact {
@@ -37,7 +39,6 @@ hr {
 }
 
 .social_icons {
-  padding-top: 0.5em;
   text-align: center;
   font-size: 2em;
 }
