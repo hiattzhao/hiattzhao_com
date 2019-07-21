@@ -13,34 +13,17 @@ layout: default
   <h2>I am a
     <em class="title">fine art photographer</em>
     <em class="title">web application developer</em>
-    <em class="title">creative coder</em>
+    <em class="title">avid traveler</em>
     <em class="title">curious learner</em>
   </h2>
 
-  <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a web developer. And in my spare time, I code art.</p>
+  <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a web developer. And in my spare time, I love to travel.</p>
 
   <p>When I'm not doing the above, I like to read positive psychology, business, and design books. I also like to build Raspberry Pi projects, such as a security camera, a video game emulator, and a smart speaker. Sometimes, I play the guitar.</p>
 
   <p>One of my goals in life is to see the world. My greatest adventure thus far has been a <a class="page-link" href="https://hiattzhao2018.blogspot.com" target="_blank">cross country bicycle trip <i class="fa fa-external-link"></i></a> in the spring and summer of 2018 where I biked from Philadelphia to San Francisco in 100 days.</p>
-
-  <hr>
-  
-  <div class="social_icons">
-    <a href="mailto:hiattzhao@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-lg"
-                aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/hiattzhao" target="_blank"><i class="fa fa-facebook-square fa-lg"
-          aria-hidden="true"></i></a>
-    <a href="https://twitter.com/hiattzhao" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-    <a href="https://www.instagram.com/hiattzhao/" target="_blank"><i class="fa fa-instagram fa-lg"
-          aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/in/hiattzhao" target="_blank"><i class="fa fa-linkedin-square fa-lg"
-          aria-hidden="true"></i></a>
-    <a href="https://github.com/hiattzhao" target="_blank"><i class="fa fa-github-square fa-lg"
-          aria-hidden="true"></i></a>
-    <a href="https://vimeo.com/hiattzhao/" target="_blank"><i class="fa fa-vimeo-square fa-lg"
-          aria-hidden="true"></i></a>
-  </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){

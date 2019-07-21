@@ -34,6 +34,10 @@ hr {
   margin-bottom: 1.5em;
 }
 
+.center {
+  text-align: center;
+}
+
 .contact {
   text-align: center;
 }

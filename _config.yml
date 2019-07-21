@@ -14,10 +14,11 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - architecture-reflections.md
-  - nature.md
+  - photography.md
+  - web-development.md
   - travel.md
-  - writings.md
+  - books.md
+  - connect.md
 
 # Build settings
 theme: minima
