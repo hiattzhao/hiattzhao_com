@@ -4,7 +4,7 @@ title: Connect
 permalink: /connect/
 ---
 <div class="post">
-  <p>Interested in connecting with me? You can <a class="page-link" href="mailto:hiattzhao@gmail.com">email me</a> and find me on the following social media.</p>
+  <p>Interested in connecting with me? You can <a class="page-link" href="mailto:hiattzhao@gmail.com">email me</a> and find me on the following social media platforms.</p>
 </div>
 <div class="social_icons">
   <a href="mailto:hiattzhao@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-lg"
