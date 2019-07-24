@@ -15,7 +15,4 @@ permalink: /photography/
   <div class="center">
     <a class="page-link" href="https://hiattzhaophotography.com" target="_blank">My photography portfolio website <i class="fa fa-external-link"></i></a>
   </div>
-  <div class="center">
-    <a class="page-link" href="https://www.facebook.com/hiattzhaophotography" target="_blank">My Facebook photography page <i class="fa fa-external-link"></i></a>
-  </div>
 </div>
