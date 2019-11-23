@@ -3,10 +3,47 @@ layout: page
 title: Travel
 permalink: /travel/
 ---
+<div id="galleria"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<script src="/assets/js/galleria-1.4.2.min.js"></script>
+
+<script>
+  var imageLocation = '/assets/photos/travel/';
+  var thumbLocation = imageLocation + 'thumb-t/';
+  var bigLocation = imageLocation;
+  var imagePrefix = 't';
+  var totalImages = 26;
+  
+  var data = [];
+
+  for (var i = 1; i <= totalImages; i++) {
+    if (i < 10) {
+      i = '0' + i;
+    }
+    data.push({
+      image : imageLocation + imagePrefix + i + '.jpg',
+      thumb : thumbLocation + imagePrefix + i + '.jpg',
+      big : imageLocation + imagePrefix + i + '.jpg',
+      title: 'travel #' + i,
+      description: 'none'
+    });
+  }
+
+  // Load the custom theme
+  Galleria.loadTheme('/assets/js/galleria/galleria.portfolio.js');
+  // Configure Galleria
+  Galleria.configure({
+    showInfo: true
+  });
+  // Initialize Galleria
+  Galleria.run('#galleria', {
+    dataSource: data
+  });
+</script>
 <div class="post">
-  <div class="center">
-    <img src="/assets/images/travel.jpg" alt="travel">
-  </div>
   <hr>
   <p>My first solo traveling was a 45 days Greyhound bus trip around the US when I was 19 years old. Consequently, it boosted my interest in photography.</p>
   <p>I didn't travel for ten years, until I was 29 years old. I had some health struggles in my twenties, but I realized that life is about experiencing the world and it's my goal to travel the world before I die. I decided to travel on average 30 days out of every year. So in 2013, I couchsurfed from Alaska to Mexico along the West Coast of United States for 40 days.</p>

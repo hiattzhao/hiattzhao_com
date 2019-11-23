@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Web Development
-permalink: /web-development/
+title: Code
+permalink: /code/
 ---
 <div class="post">
   <div class="center">

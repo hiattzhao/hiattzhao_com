@@ -12,12 +12,12 @@ layout: default
 
   <h2>I am a
     <em class="title">fine art photographer</em>
-    <em class="title">web application developer</em>
+    <em class="title">software developer</em>
     <em class="title">avid traveler</em>
     <em class="title">curious learner</em>
   </h2>
 
-  <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a web developer. And in my spare time, I love to travel.</p>
+  <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a developer. And in my spare time, I love to travel.</p>
 
   <p>When I'm not doing the above, I like to read positive psychology, business, and design books. I also like to build Raspberry Pi projects, such as a security camera, a video game emulator, and a smart speaker. Sometimes, I play the guitar.</p>
 
