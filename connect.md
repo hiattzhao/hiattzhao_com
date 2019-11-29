@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Connect
-permalink: /connect/
+permalink: /connect
 ---
 <div style="height: 50vh; display: flex; align-items: center; justify-content: center;">
   <div style="margin: 0;">

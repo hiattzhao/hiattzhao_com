@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photo
-permalink: /photo/
+permalink: /photo
 ---
 <div id="galleria"></div>
 

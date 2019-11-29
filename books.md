@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Books
-permalink: /books/
+permalink: /books
 ---
 <div class="post">
   <div class="center">

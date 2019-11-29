@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nature
-permalink: /nature/
+permalink: /nature
 ---
 
 <div id="galleria"></div>

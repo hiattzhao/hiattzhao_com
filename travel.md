@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Travel
-permalink: /travel/
+permalink: /travel
 ---
 <div id="galleria"></div>
 
