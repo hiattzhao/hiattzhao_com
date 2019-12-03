@@ -10,11 +10,12 @@ layout: default
 <div id="bio">
   <img src="/assets/photos/self.jpg" id="portrait" alt="Hiatt Zhao self portrait">
 
-  <h2>I am a
-    <em class="title">fine art photographer</em>
-    <em class="title">software developer</em>
-    <em class="title">avid traveler</em>
-    <em class="title">curious learner</em>
+  <h2>I am 
+    <em class="title">a fine art photographer</em>
+    <em class="title">a software developer</em>
+    <em class="title">an avid traveler</em>
+    <em class="title">an occasional writer</em>
+    <em class="title">a curious learner</em>
   </h2>
 
   <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a developer. And in my spare time, I love to travel.</p>
