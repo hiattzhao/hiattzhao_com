@@ -16,4 +16,4 @@ I started keeping a private journal about 10 years ago. I tried to write a publi
 
 To test this hypothesis, I'm going to do the same on this blog. Just write whatever and see what comes out of it. It's my hope that something of value will result, either for you or me.
 
-![Window](/assets/blog_pics/2019_12_02-window.jpg)
+<div class="center"><img src="/assets/blog_pics/2019_12_02-window.jpg" alt="window"></div>
