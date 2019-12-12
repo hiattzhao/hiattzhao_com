@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Christmas List"
-date:   2019-12-21
+date:   2019-12-12
 comments: true
 ---
 I still remember my first Christmas in 1995 when I arrived in the US. I received so many presents, mostly toys, that I felt like I was in heaven. It seems like as I get older each year I want fewer and fewer things for Christmas.
