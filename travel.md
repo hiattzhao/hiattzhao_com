@@ -22,7 +22,7 @@ permalink: /travel
     '2005 Boston 041',
     '2006 Chicago 024',
     '2006 New Hope 006',
-    '2006 NYC 114',
+    '2006 New York City 114',
     '2006 Philadelphia 121',
     '2006 Philadelphia 151',
     '2009 New Year 151',
