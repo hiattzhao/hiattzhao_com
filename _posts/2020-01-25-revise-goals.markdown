@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 2: Revise Goals"
+title:  "Revise Goals"
 date:   2020-01-25
 comments: true
 ---
