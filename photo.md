@@ -120,4 +120,7 @@ permalink: /photo
   <div class="center">
     <a class="page-link" href="https://vimeo.com/hiattzhao" target="_blank">My architecture reflection videos on Vimeo <i class="fa fa-external-link"></i></a>
   </div>
+
+  <div class="center" style="margin-top: 2em;">
+    <a href="/purchase"><i class="fas fa-shopping-cart"></i> Purchase Info</a>
 </div>
