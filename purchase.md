@@ -8,7 +8,7 @@ permalink: /purchase
     <img src="/assets/images/staged_photo/StagedPhoto.png" alt="staged photo">
   </div>
   <hr>
-  <p>I print my architecture reflection photographs exclusively on high definitive metal plates. The metal quality brings out the true nature of these photographs since they are industrial and at the same time abstract and painterly.</p>
+  <p>I print my architecture reflection photographs exclusively on high definition metal plates. The metal quality brings out the true nature of these photographs since they are industrial and at the same time abstract and painterly.</p>
 
   <div class="center" style="margin: 1em">
     <img src="/assets/images/staged_photo/MetalPrint1.png" alt="metal print detail">
