@@ -15,16 +15,16 @@
   <script src="https://kit.fontawesome.com/92225ea11d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/assets/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Nature | Hiatt Zhao</title>
+<title>About | Hiatt Zhao</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Nature" />
+<meta property="og:title" content="About" />
 <meta name="author" content="Hiatt Zhao" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/nature" />
-<meta property="og:url" content="http://localhost:4000/nature" />
+<link rel="canonical" href="http://localhost:4000/about" />
+<meta property="og:url" content="http://localhost:4000/about" />
 <meta property="og:site_name" content="Hiatt Zhao" />
 <script type="application/ld+json">
-{"headline":"Nature","author":{"@type":"Person","name":"Hiatt Zhao"},"@type":"WebPage","url":"http://localhost:4000/nature","@context":"https://schema.org"}</script>
+{"headline":"About","author":{"@type":"Person","name":"Hiatt Zhao"},"@type":"WebPage","url":"http://localhost:4000/about","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hiatt Zhao" /></head><body><header class="site-header" role="banner">
 
@@ -46,46 +46,58 @@
         <article class="gallery">
 
   <div class="gallery-content">
-    <div id="galleria"></div>
+    <div id="bio">
+  <img src="/assets/photos/self.jpg" id="portrait" alt="Hiatt Zhao self portrait" />
+
+  <h2>I am 
+    <em class="title">a fine art photographer</em>
+    <em class="title">a software developer</em>
+    <em class="title">an avid traveler</em>
+    <em class="title">an occasional writer</em>
+    <em class="title">a curious learner</em>
+  </h2>
+
+  <p>I have a passion for the visual arts and I've been exhibiting my photographs in galleries for over fifteen years. Along with a scientific mind, I currently work as a developer. And in my spare time, I love to travel.</p>
+
+  <p>When I'm not doing the above, I like to read positive psychology, business, and design books. I also like to build Raspberry Pi projects, such as a security camera, a video game emulator, and a smart speaker. Sometimes, I play the guitar.</p>
+
+  <p>One of my goals in life is to see the world. My greatest adventure thus far has been a <a class="page-link" href="https://hiattzhao2018.blogspot.com" target="_blank">cross country bicycle trip <i class="fa fa-external-link"></i></a> in the spring and summer of 2018 where I biked from Philadelphia to San Francisco in 100 days.</p>
+</div>
+
+<div style="height: 25vh; display: flex; align-items: center; justify-content: center;">
+  <div style="margin: 0;">
+    <div class="post">
+      <p>Interested in connecting with me? You can <a class="page-link" href="mailto:hiattzhao@gmail.com">email me</a> and find me on the following social media platforms.</p>
+    </div>
+    <div class="social_icons">
+      <a href="mailto:hiattzhao@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.facebook.com/hiattzhao" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/hiattzhao" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/hiattzhao/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/hiattzhao" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/hiattzhao" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://vimeo.com/hiattzhao/" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+      <a href="https://patreon.com/hiattzhao/" target="_blank"><i class="fab fa-patreon"></i></a>
+    </div>
+  </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="/assets/js/galleria-1.4.2.min.js"></script>
-
 <script>
-  var imageLocation = '/assets/photos/nature/';
-  var thumbLocation = imageLocation + 'thumb-n/';
-  var bigLocation = imageLocation;
-  var imagePrefix = 'n';
-  var totalImages = 28;
-  
-  var data = [];
-
-  for (var i = 1; i <= totalImages; i++) {
-    if (i < 10) {
-      i = '0' + i;
-    }
-    data.push({
-      image : imageLocation + imagePrefix + i + '.jpg',
-      thumb : thumbLocation + imagePrefix + i + '.jpg',
-      big : imageLocation + imagePrefix + i + '.jpg',
-      title: 'nature #' + i,
-      description: 'none'
-    });
+$(document).ready(function(){
+  var titles = $(".title");
+  var titleIndex = 0;
+  function showNextTitle() {
+    titles.eq(titleIndex % titles.length)
+        .fadeIn(2000)
+        .delay(1000)
+        .fadeOut(2000, showNextTitle);
+    titleIndex++;
   }
+  showNextTitle();
+});
 
-  // Load the custom theme
-  Galleria.loadTheme('/assets/js/galleria/galleria.portfolio.js');
-  // Configure Galleria
-  Galleria.configure({
-    showInfo: true
-  });
-  // Initialize Galleria
-  Galleria.run('#galleria', {
-    dataSource: data
-  });
 </script>
 
 

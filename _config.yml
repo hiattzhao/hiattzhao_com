@@ -2,7 +2,6 @@ title: Hiatt Zhao
 author: Hiatt Zhao
 email: hiattzhao@gmail.com
 description: > # this means to ignore newlines
-  Portfolio
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -14,12 +13,12 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-#  - blog.md
+  - index.md
   - photo.md
   - code.md
   - travel.md
   - books.md
-  - connect.md
+  - about.md
 
 # Build settings
 theme: minima
