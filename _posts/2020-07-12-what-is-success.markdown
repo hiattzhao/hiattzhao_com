@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is Success? According to Me."
+title:  "What is Success? According to Me"
 date:   2020-07-12
 comments: true
 ---
