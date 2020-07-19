@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Man?"
-date:   2019-12-07
-comments: true
----
-I started this piece by randomly making marks with lines until I realized that what I was drawing was a profile of a person. I don't know if it's a man or a woman. I don't think it really matters. Might as well be a banana duct taped to a wall.
-
-<div class="center"><img src="/assets/blog_pics/2019_12_07-man.png" alt="Man?"></div>
